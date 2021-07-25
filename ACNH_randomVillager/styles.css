@@ -1,0 +1,100 @@
+header {
+    background-color: rgb(66, 180, 156);
+    height: 150px;
+    text-align: center;
+    color:rgb(216, 219, 218);
+    font-family: chalkduster, fantasy;
+    font-size: 300%;
+    line-height: 150px;
+    border-radius: 15px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("images/leafBackground.png");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: rgb(66, 180, 156);
+    font-family: chalkduster, fantasy;
+    color:rgb(216, 219, 218);
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+    border-radius: 15px;
+}
+
+.button {
+    background-color: rgb(26, 65, 56);
+    border-radius: 30px;
+    border: 1px solid rgb(26, 65, 56);
+    color:rgb(216, 219, 218);
+    padding: 30px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    cursor: pointer;
+    font-family: chalkduster, fantasy;
+    margin: 20px;
+}
+
+.button:hover {
+    background-color: rgb(216, 219, 218);
+    border: 1px solid rgb(26, 65, 56);
+    color: rgb(26, 65, 56);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexChild {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.flexChild:first-child {
+    margin-right: 20px;
+}
+
+@media (max-width:885px) {
+    header {
+        font-size: 200%;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .button {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    header {
+        font-size: 150%;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .button {
+        font-size: 30px;
+    }
+}
