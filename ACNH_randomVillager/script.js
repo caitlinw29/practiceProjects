@@ -3,7 +3,14 @@ function genRanVillager()
    var imageArray = [  
         {src: "Images/ACNH_VillagerPhotos/Admiral.png"},   
         {src: "Images/ACNH_VillagerPhotos/Agent_S.png"},
-        {src: "Images/ACNH_VillagerPhotos/Agnes.png"}];  
+        {src: "Images/ACNH_VillagerPhotos/Agnes.png"},
+        {src: "Images/ACNH_VillagerPhotos/Chai.png"},
+        {src: "Images/ACNH_VillagerPhotos/Chelsea.png"},
+        {src: "Images/ACNH_VillagerPhotos/Etoile.png"},
+        {src: "Images/ACNH_VillagerPhotos/Marty.png"},
+        {src: "Images/ACNH_VillagerPhotos/Rilla.png"},
+        {src: "Images/ACNH_VillagerPhotos/Toby.png"}
+    ];  
 
     var arrayLength = imageArray.length;  
     var newArray = [];  
