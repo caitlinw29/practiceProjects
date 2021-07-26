@@ -1,28 +1,29 @@
 header {
     background-color: rgb(66, 180, 156);
-    height: 150px;
+    height: 125px;
     text-align: center;
     color:rgb(216, 219, 218);
     font-family: chalkduster, fantasy;
     font-size: 300%;
-    line-height: 150px;
+    line-height: 125px;
     border-radius: 15px;
 }
 
 html, body {
     height: 100%;
-}
+} /*Helps set the footer to be sticky*/
 
 body {
     background-image: url("images/leafBackground.png");
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
-}
+} /*Display and flex-direction are for sticky footer*/
 
 .content {
     flex: 1 0 auto;
-}
+    text-align: center;
+} /*Also for sticky footer*/
 
 .footer {
     flex-shrink: 0;
@@ -60,19 +61,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 200px;
-}
+    margin-bottom: 10px;
+} /*centers button*/
 
-.flexContainer {
-    display: flex;
-}
-
-.flexChild {
-    flex: 1;
-    border: 1px solid black;
-}
-
-.flexChild:first-child {
-    margin-right: 20px;
+Img {
+    height: 300px;
+    margin-top: 20px;
 }
 
 @media (max-width:885px) {
@@ -90,11 +84,16 @@ body {
 @media (max-width:600px) {
     header {
         font-size: 150%;
-        height: 80px;
-        line-height: 80px;
+        height: 90px;
+        line-height: 90px;
     }
 
     .button {
-        font-size: 30px;
+        font-size: 35px;
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
     }
 }
