@@ -14,7 +14,7 @@ html, body {
 } /*Helps set the footer to be sticky*/
 
 body {
-    background-image: url("images/leafBackground.png");
+    background-image: url("Images/leafBackground.png");
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
