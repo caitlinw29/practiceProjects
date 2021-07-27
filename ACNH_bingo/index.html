@@ -13,25 +13,108 @@
       <div class="content">
         <header>
             <h1>ACNH Villager Bingo</h1>
-            <button id="makeBoard" class="button">Make a bingo board!</button>
+            <button id="makeBoard" onClick="refreshPage()">Make a new bingo board!</button>
         </header>
 
         <div id="board">
             <table>
                 <tr>
-                    <td id="00"></td><td id="01"></td><td id="02"></td><td id="03"></td><td id="04"></td>
+                    <th>B</th>
+                    <th>I</th>
+                    <th>N</th>
+                    <th>G</th>
+                    <th>O</th>
                 </tr>
                 <tr>
-                    <td id="10"></td><td id="11"></td><td id="12"></td><td id="13"></td><td id="14"></td>
+                  <td onclick= "randomImage(0); this.onclick = null;">
+                    <div id = "0" class="contentArea"></div>
+                  </td>
+        
+                  <td onclick= "randomImage(1); this.onclick = null;">
+                    <div id = "1" class="contentArea"></div>
+                  </td>
+        
+                  <td  onclick= "randomImage(2); this.onclick = null;">
+                    <div id = "2" class = "contentArea"></div>
+                  </td>
+        
+                  <td  onclick= "randomImage(3); this.onclick = null;">
+                    <div id = "3" class = "contentArea"></div>
+                  </td>
+        
+                  <td  onclick= "randomImage(4); this.onclick = null;">
+                    <div id = "4" class = "contentArea"></div>
+                  </td>
                 </tr>
                 <tr>
-                    <td id="20"></td><td id="21"></td><td id="free"></td><td id="23"></td><td id="24"></td>
+                  <td onclick= "randomImage(5); this.onclick = null;">
+                    <div id = "5" class = "contentArea"></div>
+                  </td>
+        
+                  <td onclick= "randomImage(6); this.onclick = null;">
+                    <div id = "6" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(7); this.onclick = null;">
+                    <div id = "7" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(8); this.onclick = null;">
+                    <div id = "8" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(9); this.onclick = null;">
+                    <div id = "9" class = "contentArea"></div>
+                  </td>
                 </tr>
                 <tr>
-                    <td id="30"></td><td id="31"></td><td id="32"></td><td id="33"></td><td id="34"></td>
+                  <td onclick= "randomImage(10); this.onclick = null;">
+                    <div id = "10" class = "contentArea"></div>
+                  </td>
+                  <td  onclick= "randomImage(11); this.onclick = null;">
+                    <div id = "11" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(12); this.onclick = null;">
+                    <div id = "12" class = "contentArea">FREE</div>
+                  </td>
+                  <td onclick= "randomImage(13); this.onclick = null;">
+                    <div id = "13" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(14); this.onclick = null;">
+                    <div id = "14" class = "contentArea"></div>
+                  </td>
                 </tr>
                 <tr>
-                    <td id="40"></td><td id="41"></td><td id="42"></td><td id="43"></td><td id="44"></td>
+                  <td onclick= "randomImage(15); this.onclick = null;">
+                    <div id = "15" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(16); this.onclick = null;">
+                    <div id = "16" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(17); this.onclick = null;">
+                    <div id = "17" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(18); this.onclick = null;">
+                    <div id = "18" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(19); this.onclick = null;">
+                    <div id = "19" class = "contentArea"></div>
+                  </td>
+                </tr>
+        
+                <tr>
+                  <td onclick= "randomImage(20); this.onclick = null;">
+                    <div id = "20" class = "contentArea"></div>
+                  </td>
+                  <td  onclick= "randomImage(21); this.onclick = null;">
+                    <div id = "21" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(22); this.onclick = null;">
+                    <div id = "22" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(23); this.onclick = null;">
+                    <div id = "23" class = "contentArea"></div>
+                  </td>
+                  <td onclick= "randomImage(24); this.onclick = null;">
+                    <div id = "24" class = "contentArea"></div>
+                  </td>
                 </tr>
             </table>
         </div>
@@ -47,7 +130,6 @@
                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
             </div>
         </footer>
-      
-      <script src="script.js" async defer></script>
+        <script src="script.js" async defer></script>
     </body>
 </html>
