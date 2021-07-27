@@ -1,0 +1,146 @@
+header {
+    font-family: cursive;
+    border-bottom: 3px dashed rgb(37, 62, 145);
+    padding: 10px;
+    background-color: rgb(145, 224, 224);
+    color: rgb(37, 62, 145);
+    position: relative;
+}
+
+h1 {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+button {
+    font-size: large;
+    background-color: rgb(107, 243, 232);
+    border-radius: 20px;
+    border-color: rgb(37, 62, 145);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: cursive;
+    margin: 10px;
+    color:rgb(37, 62, 145);
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+#board {
+    width: 800px;
+    height: 550px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+td {
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(37, 62, 145)
+}
+
+html, body {
+    height: 100%;
+} /*Helps set the footer to be sticky*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 197, 190);
+} /*Helps set the footer to be sticky*/
+
+.content {
+    flex: 1 0 auto;
+    text-align: center;
+} /*Helps set the footer to be sticky*/
+
+footer {
+    flex-shrink: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: x-small;
+} /*Helps set the footer to be sticky*/
+
+a:link {
+    text-decoration: none;
+}
+
+@media (max-width:800px){ 
+    h1 {
+        text-align: left;
+    }
+
+    td {
+        width: 100px;
+        height: 100px;
+    }
+
+    table {
+        left: 80px;
+    }
+}
+
+@media (max-width:600px){
+    header {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: small;
+        position: static;
+        margin: 0px;
+    }
+
+    td {
+        height: 80px;
+        width: 80px;
+    }
+
+    table {
+        left: 75px;
+    }
+}
+
+@media (max-width:400px){
+    header {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: small;
+        position: static;
+        margin: 0px;
+    }
+
+    td {
+        height: 80px;
+        width: 80px;
+    }
+
+    table {
+        left: 40px;
+    }
+}
+
