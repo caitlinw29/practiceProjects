@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" type="image/png" href="Images/bingo.png" />
+        <script src="jquery-3.6.0.min.js"></script>
     </head>
     <body>
       <div class="content">
@@ -17,7 +18,7 @@
         </header>
 
         <div id="board">
-            <table>
+            <table onclick = "markOff()">
                 <tr>
                     <th>B</th>
                     <th>I</th>
@@ -27,93 +28,93 @@
                 </tr>
                 <tr>
                   <td onclick= "randomImage(0); this.onclick = null;">
-                    <div id = "0" class="contentArea"></div>
+                    <div id = "0" class="contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
         
                   <td onclick= "randomImage(1); this.onclick = null;">
-                    <div id = "1" class="contentArea"></div>
+                    <div id = "1" class="contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
         
                   <td  onclick= "randomImage(2); this.onclick = null;">
-                    <div id = "2" class = "contentArea"></div>
+                    <div id = "2" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
         
                   <td  onclick= "randomImage(3); this.onclick = null;">
-                    <div id = "3" class = "contentArea"></div>
+                    <div id = "3" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
         
                   <td  onclick= "randomImage(4); this.onclick = null;">
-                    <div id = "4" class = "contentArea"></div>
+                    <div id = "4" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                 </tr>
                 <tr>
                   <td onclick= "randomImage(5); this.onclick = null;">
-                    <div id = "5" class = "contentArea"></div>
+                    <div id = "5" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
         
                   <td onclick= "randomImage(6); this.onclick = null;">
-                    <div id = "6" class = "contentArea"></div>
+                    <div id = "6" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(7); this.onclick = null;">
-                    <div id = "7" class = "contentArea"></div>
+                    <div id = "7" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(8); this.onclick = null;">
-                    <div id = "8" class = "contentArea"></div>
+                    <div id = "8" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(9); this.onclick = null;">
-                    <div id = "9" class = "contentArea"></div>
+                    <div id = "9" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                 </tr>
                 <tr>
                   <td onclick= "randomImage(10); this.onclick = null;">
-                    <div id = "10" class = "contentArea"></div>
+                    <div id = "10" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td  onclick= "randomImage(11); this.onclick = null;">
-                    <div id = "11" class = "contentArea"></div>
+                    <div id = "11" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(12); this.onclick = null;">
                     <div id = "12" class = "contentArea">FREE</div>
                   </td>
                   <td onclick= "randomImage(13); this.onclick = null;">
-                    <div id = "13" class = "contentArea"></div>
+                    <div id = "13" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(14); this.onclick = null;">
-                    <div id = "14" class = "contentArea"></div>
+                    <div id = "14" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                 </tr>
                 <tr>
                   <td onclick= "randomImage(15); this.onclick = null;">
-                    <div id = "15" class = "contentArea"></div>
+                    <div id = "15" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(16); this.onclick = null;">
-                    <div id = "16" class = "contentArea"></div>
+                    <div id = "16" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(17); this.onclick = null;">
-                    <div id = "17" class = "contentArea"></div>
+                    <div id = "17" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(18); this.onclick = null;">
-                    <div id = "18" class = "contentArea"></div>
+                    <div id = "18" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(19); this.onclick = null;">
-                    <div id = "19" class = "contentArea"></div>
+                    <div id = "19" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                 </tr>
         
                 <tr>
                   <td onclick= "randomImage(20); this.onclick = null;">
-                    <div id = "20" class = "contentArea"></div>
+                    <div id = "20" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td  onclick= "randomImage(21); this.onclick = null;">
-                    <div id = "21" class = "contentArea"></div>
+                    <div id = "21" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(22); this.onclick = null;">
-                    <div id = "22" class = "contentArea"></div>
+                    <div id = "22" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(23); this.onclick = null;">
-                    <div id = "23" class = "contentArea"></div>
+                    <div id = "23" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                   <td onclick= "randomImage(24); this.onclick = null;">
-                    <div id = "24" class = "contentArea"></div>
+                    <div id = "24" class = "contentArea"><img class="circular-square" src="Images/yellow.jpeg" /></div>
                   </td>
                 </tr>
             </table>
